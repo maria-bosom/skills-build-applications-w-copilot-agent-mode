@@ -1,0 +1,112 @@
+body {
+  background: linear-gradient(135deg, #f8fafc 0%, #e0e7ff 100%);
+  color: #22223b;
+}
+
+.App {
+  text-align: center;
+  background: #f8fafc;
+  min-height: 100vh;
+}
+
+.navbar {
+  background: linear-gradient(90deg, #3a86ff 0%, #8338ec 100%) !important;
+}
+.navbar-brand {
+  color: #fff !important;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+.navbar-nav .nav-link {
+  color: #fff !important;
+  font-weight: 500;
+}
+.navbar-nav .nav-link.active {
+  color: #ffbe0b !important;
+}
+
+.App-logo {
+  height: 40px;
+  margin-right: 12px;
+}
+
+.card-header {
+  background: linear-gradient(90deg, #ffbe0b 0%, #fb5607 100%) !important;
+  color: #fff !important;
+}
+.card {
+  box-shadow: 0 2px 8px rgba(58, 134, 255, 0.1);
+  border-radius: 12px;
+}
+
+.table {
+  background: #fff;
+  color: #22223b;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.table th {
+  background: #3a86ff;
+  color: #fff;
+}
+.table-striped tbody tr:nth-of-type(odd) {
+  background: #e0e7ff;
+}
+.table-bordered {
+  border: 2px solid #3a86ff;
+}
+
+.btn-primary, .btn-success, .btn-info, .btn-warning, .btn-secondary {
+  border-radius: 8px;
+  font-weight: 600;
+  margin: 4px;
+}
+.btn-primary {
+  background: linear-gradient(90deg, #3a86ff 0%, #8338ec 100%);
+  border: none;
+}
+.btn-success {
+  background: linear-gradient(90deg, #06d6a0 0%, #43aa8b 100%);
+  border: none;
+}
+.btn-info {
+  background: linear-gradient(90deg, #00b4d8 0%, #48cae4 100%);
+  border: none;
+}
+.btn-warning {
+  background: linear-gradient(90deg, #ffbe0b 0%, #fb5607 100%);
+  border: none;
+}
+.btn-secondary {
+  background: linear-gradient(90deg, #22223b 0%, #4a4e69 100%);
+  border: none;
+}
+
+h1, h2, h3, h4 {
+  color: #3a86ff;
+  font-weight: bold;
+}
+a {
+  color: #8338ec;
+  font-weight: 500;
+}
+a:hover {
+  color: #ffbe0b;
+}
+
+.modal-content {
+  border-radius: 16px;
+  background: #fff;
+}
+.modal-header {
+  background: #3a86ff;
+  color: #fff;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+}
+.modal-footer {
+  background: #e0e7ff;
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+}
